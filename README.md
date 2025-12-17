@@ -33,7 +33,7 @@ This work was supported by:
 - National Research Foundation of Korea (NRF) grant (RS-2024-00357917)
 - IITP - Innovative Human Resource Development for Local Intellectualization (IITP-2025-RS-2022-00156287)
 - IITP - ICAN program (IITP-2025-RS-2022-00156385)
-- 
+
 ## 📄 License
 MIT License - see [LICENSE](LICENSE) file for details.
 
