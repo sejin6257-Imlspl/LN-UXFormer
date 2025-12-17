@@ -47,6 +47,27 @@ checkpoint = torch.load(model_path)
 
 model.load_state_dict(checkpoint)
 
+### File
+LN_UXFormer/
+├── model/
+│   ├── LN_UXFormer.py           # Main model architecture
+│   ├── swin_transformer.py      # Swin Transformer implementation
+│   └── transformer/             # Transformer components
+│
+├── data/
+│   ├── Training/                # Training dataset
+│   └── Testing/                 # Testing dataset
+│
+├── result_bestmodel/
+│   └── LN_UXFormer_epoch.pt    # Saved model checkpoints
+│
+├── result_image/                # Output visualization results
+│
+├── data_load.py                 # Dataset loader
+├── train.ipynb                  # Training notebook
+├── test.ipynb                   # Testing notebook
+├── requirements.txt             # Package dependencies
+└── README.md                    # Project documentation
 
 ## 🙏 Acknowledgments
 
