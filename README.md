@@ -47,7 +47,8 @@ checkpoint = torch.load(model_path)
 
 model.load_state_dict(checkpoint)
 
-### File
+## 📁 Project Structure
+```
 LN_UXFormer/
 ├── model/
 │   ├── LN_UXFormer.py           # Main model architecture
@@ -68,6 +69,7 @@ LN_UXFormer/
 ├── test.ipynb                   # Testing notebook
 ├── requirements.txt             # Package dependencies
 └── README.md                    # Project documentation
+```
 
 ## 🙏 Acknowledgments
 
